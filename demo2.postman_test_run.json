@@ -1,0 +1,634 @@
+{
+	"id": "ea896db3-97c8-4908-ac9b-d8eb89ddc041",
+	"name": "CPS-SGRE",
+	"timestamp": "2024-07-05T16:04:23.430Z",
+	"collection_id": "29137529-0543e235-0cbf-4893-98e7-a1552eb2192e",
+	"folder_id": "29137529-cad9ee38-cea7-480e-9244-dbe8a2786184",
+	"environment_id": "29137529-77fd2e8a-6530-479f-9d64-ceca946e460e",
+	"totalPass": 25,
+	"delay": "500",
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-07-05T16:04:10.133Z",
+	"totalFail": 2,
+	"results": [
+		{
+			"id": "ffcec0e0-447a-4ace-8b15-e72fe677c918",
+			"name": "TC86 - SUC - Create PO item schedule",
+			"url": "http://192.168.155.235:30438/purchaseOrders",
+			"time": 306,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				306
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "4becac5e-fdd4-48d7-9df9-59ec13f6ac85",
+			"name": "EXP - TC86 - P1",
+			"url": "http://192.168.155.235:31861/purchaseOrders/number/QATST10000",
+			"time": 91,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Successfully create PO item": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Successfully create PO item": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				91
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Successfully create PO item": true
+				}
+			]
+		},
+		{
+			"id": "157b0a16-b19d-461b-afc5-69642219a905",
+			"name": "EXP - TC86 - P2",
+			"url": "http://192.168.155.235:31861/purchaseOrderItems/scheduledAndConfirmed?storeLocationId=147",
+			"time": 101,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Successfully create PO item schedule": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Successfully create PO item schedule": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				101
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Successfully create PO item schedule": true
+				}
+			]
+		},
+		{
+			"id": "fcf4aa31-9831-471e-aab8-ff1142007692",
+			"name": "TC87 - SUC - Update PO item data",
+			"url": "http://192.168.155.235:30438/purchaseOrders",
+			"time": 119,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				119
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "08e5f9bf-c2b7-469b-8791-38f3fba0562c",
+			"name": "EXP - TC87",
+			"url": "http://192.168.155.235:31861/purchaseOrders/number/QATST10000",
+			"time": 82,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Successfully update PO item": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Successfully update PO item": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				82
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Successfully update PO item": true
+				}
+			]
+		},
+		{
+			"id": "cd1804c1-b3be-4306-8977-e06c1e96559e",
+			"name": "TC88 - SUC - Update PO item schedule",
+			"url": "http://192.168.155.235:30438/purchaseOrders",
+			"time": 102,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				102
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "b77f346c-a168-406c-bea4-5073fe2d1af8",
+			"name": "EXP - TC88",
+			"url": "http://192.168.155.235:31861/purchaseOrderItems/scheduledAndConfirmed?storeLocationId=147",
+			"time": 86,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Successfully update PO item schedule": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Successfully update PO item schedule": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				86
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Successfully update PO item schedule": true
+				}
+			]
+		},
+		{
+			"id": "82824dc6-bb89-4912-b676-5b4f1643df05",
+			"name": "TC89 - SUC - Delete PO item schedule",
+			"url": "http://192.168.155.235:30438/purchaseOrders",
+			"time": 96,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				96
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "dabbdadd-bf0a-4c04-8e42-51fc50f70834",
+			"name": "EXP - TC89",
+			"url": "http://192.168.155.235:31861/purchaseOrderItems/scheduledAndConfirmed?storeLocationId=147",
+			"time": 75,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Successfully delete PO item schedule": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Successfully delete PO item schedule": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				75
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Successfully delete PO item schedule": true
+				}
+			]
+		},
+		{
+			"id": "4bbdfbca-6fd9-4116-9147-0b837496fe30",
+			"name": "TC90 - SUC - Create PO item confirmation",
+			"url": "http://192.168.155.235:30438/purchaseOrders",
+			"time": 142,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				142
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "f3ed969f-60a5-4dc4-a9c8-f8668141bca4",
+			"name": "EXP - TC90 - P1",
+			"url": "http://192.168.155.235:31861/purchaseOrders/number/QATST10000",
+			"time": 72,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Successfully create PO item": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Successfully create PO item": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				72
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Successfully create PO item": true
+				}
+			]
+		},
+		{
+			"id": "e7cc95d0-070d-40e8-a7dd-34af807732c9",
+			"name": "EXP - TC90 - P2",
+			"url": "http://192.168.155.235:31861/purchaseOrderItems/scheduledAndConfirmed?storeLocationId=147",
+			"time": 78,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Successfully create PO item confirmation": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Successfully create PO item confirmation": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				78
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Successfully create PO item confirmation": true
+				}
+			]
+		},
+		{
+			"id": "18c83f2f-4bb3-49ab-91be-c5306e460f7d",
+			"name": "TC91 - SUC - Update PO item confirmation",
+			"url": "http://192.168.155.235:30438/purchaseOrders",
+			"time": 53,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				53
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "cc7615ab-761a-4448-92f8-55fee4db3046",
+			"name": "EXP - TC91",
+			"url": "http://192.168.155.235:31861/purchaseOrderItems/scheduledAndConfirmed?storeLocationId=147",
+			"time": 74,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Successfully update PO item confirmation": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Successfully update PO item confirmation": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				74
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Successfully update PO item confirmation": false
+				}
+			]
+		},
+		{
+			"id": "3cdd1235-54bb-47a5-b4b6-69b2b0df0689",
+			"name": "TC92 - SUC - Delete PO item confirmation",
+			"url": "http://192.168.155.235:30438/purchaseOrders",
+			"time": 100,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				100
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "ec35aabf-4af0-4695-b6ba-b85c5a335a5d",
+			"name": "EXP - TC92",
+			"url": "http://192.168.155.235:31861/purchaseOrderItems/scheduledAndConfirmed?storeLocationId=147",
+			"time": 78,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Successfully update PO item confirmation": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Successfully update PO item confirmation": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				78
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Successfully update PO item confirmation": true
+				}
+			]
+		},
+		{
+			"id": "121b437f-54b6-43b6-b563-477a462a9e68",
+			"name": "TC93 - SUC - Delete PO item",
+			"url": "http://192.168.155.235:30438/purchaseOrders",
+			"time": 125,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				125
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "7efe0bda-eaf4-4361-a40c-fddab67b3e84",
+			"name": "EXP - TC93",
+			"url": "http://192.168.155.235:31861/purchaseOrders/number/QATST10000",
+			"time": 62,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 404": false
+			},
+			"testPassFailCounts": {
+				"Status code is 404": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				62
+			],
+			"allTests": [
+				{
+					"Status code is 404": false
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1842,
+	"collection": {
+		"requests": [
+			{
+				"id": "ffcec0e0-447a-4ace-8b15-e72fe677c918",
+				"method": "POST"
+			},
+			{
+				"id": "4becac5e-fdd4-48d7-9df9-59ec13f6ac85",
+				"method": "GET"
+			},
+			{
+				"id": "157b0a16-b19d-461b-afc5-69642219a905",
+				"method": "GET"
+			},
+			{
+				"id": "fcf4aa31-9831-471e-aab8-ff1142007692",
+				"method": "PATCH"
+			},
+			{
+				"id": "08e5f9bf-c2b7-469b-8791-38f3fba0562c",
+				"method": "GET"
+			},
+			{
+				"id": "cd1804c1-b3be-4306-8977-e06c1e96559e",
+				"method": "PATCH"
+			},
+			{
+				"id": "b77f346c-a168-406c-bea4-5073fe2d1af8",
+				"method": "GET"
+			},
+			{
+				"id": "82824dc6-bb89-4912-b676-5b4f1643df05",
+				"method": "DELETE"
+			},
+			{
+				"id": "dabbdadd-bf0a-4c04-8e42-51fc50f70834",
+				"method": "GET"
+			},
+			{
+				"id": "4bbdfbca-6fd9-4116-9147-0b837496fe30",
+				"method": "POST"
+			},
+			{
+				"id": "f3ed969f-60a5-4dc4-a9c8-f8668141bca4",
+				"method": "GET"
+			},
+			{
+				"id": "e7cc95d0-070d-40e8-a7dd-34af807732c9",
+				"method": "GET"
+			},
+			{
+				"id": "18c83f2f-4bb3-49ab-91be-c5306e460f7d",
+				"method": "POST"
+			},
+			{
+				"id": "cc7615ab-761a-4448-92f8-55fee4db3046",
+				"method": "GET"
+			},
+			{
+				"id": "3cdd1235-54bb-47a5-b4b6-69b2b0df0689",
+				"method": "DELETE"
+			},
+			{
+				"id": "ec35aabf-4af0-4695-b6ba-b85c5a335a5d",
+				"method": "GET"
+			},
+			{
+				"id": "121b437f-54b6-43b6-b563-477a462a9e68",
+				"method": "DELETE"
+			},
+			{
+				"id": "7efe0bda-eaf4-4361-a40c-fddab67b3e84",
+				"method": "GET"
+			}
+		]
+	}
+}

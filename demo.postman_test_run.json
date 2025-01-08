@@ -1,0 +1,1042 @@
+{
+	"id": "9d3f4925-7a2d-4eda-9eae-110a2304b05a",
+	"name": "CPS-SGRE",
+	"timestamp": "2024-07-04T13:57:45.406Z",
+	"collection_id": "29137529-0543e235-0cbf-4893-98e7-a1552eb2192e",
+	"folder_id": "29137529-5ebccb70-9856-4b39-8d12-f68498cfd025",
+	"environment_id": "29137529-77fd2e8a-6530-479f-9d64-ceca946e460e",
+	"totalPass": 45,
+	"delay": "1000",
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-07-04T13:57:08.738Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "3570589a-300a-4509-8298-bcf829393d51",
+			"name": "TC71 - SUC - Insert new stock for Plant + SLoc",
+			"url": "http://192.168.155.235:30438/materialStocks/codes",
+			"time": 134,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				134
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "ab885e34-9d36-45da-9c3e-7c27fad1837d",
+			"name": "EXP - TC71",
+			"url": "http://192.168.155.235:31861/materialStocks/storeLocationId/147/batch//projectStockWBS/",
+			"time": 118,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Successfully insert new stock for Plant + SLoc": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Successfully insert new stock for Plant + SLoc": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				118
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Successfully insert new stock for Plant + SLoc": true
+				}
+			]
+		},
+		{
+			"id": "01d1244f-29f8-4f03-82b4-6eef216323f0",
+			"name": "TC72 - SUC - Update existing stock for Plant + SLoc",
+			"url": "http://192.168.155.235:30438/materialStocks/codes",
+			"time": 107,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				107
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "2e9ee841-58c1-4974-98af-c051f395ea9a",
+			"name": "EXP - TC72",
+			"url": "http://192.168.155.235:31861/materialStocks/storeLocationId/147/batch//projectStockWBS/",
+			"time": 69,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Successfully update existing stock for Plant + SLoc": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Successfully update existing stock for Plant + SLoc": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				69
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Successfully update existing stock for Plant + SLoc": true
+				}
+			]
+		},
+		{
+			"id": "cd5ecad9-7e4c-423e-8c26-f6351fb50b7e",
+			"name": "TC73 - SUC - Delete existing stock for Plant + SLoc",
+			"url": "http://192.168.155.235:30438/materialStocks/codes",
+			"time": 110,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				110
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "d219c022-d963-4082-995f-84f2bba48089",
+			"name": "EXP - TC73",
+			"url": "http://192.168.155.235:31861/materialStocks/storeLocationId/147/batch//projectStockWBS/",
+			"time": 72,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Successfully delete existing stock for Plant + SLoc": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Successfully delete existing stock for Plant + SLoc": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				72
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Successfully delete existing stock for Plant + SLoc": true
+				}
+			]
+		},
+		{
+			"id": "3c56d5ec-ef0a-414a-8b0d-6756c02cc53c",
+			"name": "TC74 - SUC - Insert new stock for Plant + SLoc + Batch",
+			"url": "http://192.168.155.235:30438/materialStocks/codes",
+			"time": 109,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				109
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "eca32a03-8efc-43b8-a19e-8055aa359031",
+			"name": "EXP - TC74",
+			"url": "http://192.168.155.235:31861/materialStocks/storeLocationId/147/batch/R/projectStockWBS/",
+			"time": 70,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Successfully insert new stock for Plant + SLoc": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Successfully insert new stock for Plant + SLoc": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				70
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Successfully insert new stock for Plant + SLoc": true
+				}
+			]
+		},
+		{
+			"id": "bbb75375-586d-4fd5-b2d7-48cce7063a6f",
+			"name": "TC75 - SUC - Update existing stock for Plant + SLoc + Batch",
+			"url": "http://192.168.155.235:30438/materialStocks/codes",
+			"time": 101,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				101
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "fd9c0dfd-87b3-4c44-9747-73b7e845669e",
+			"name": "EXP - TC75",
+			"url": "http://192.168.155.235:31861/materialStocks/storeLocationId/147/batch/R/projectStockWBS/",
+			"time": 67,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Successfully update existing stock for Plant + SLoc + Batch": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Successfully update existing stock for Plant + SLoc + Batch": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				67
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Successfully update existing stock for Plant + SLoc + Batch": true
+				}
+			]
+		},
+		{
+			"id": "14261849-c4b5-4ee4-ace4-c041dccd1f74",
+			"name": "TC76 - SUC - Delete existing stock for Plant + SLoc + Batch",
+			"url": "http://192.168.155.235:30438/materialStocks/codes",
+			"time": 109,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				109
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "993a9847-319e-4823-b22b-d0fe5d6a8392",
+			"name": "EXP - TC76",
+			"url": "http://192.168.155.235:31861/materialStocks/storeLocationId/147/batch/R/projectStockWBS/",
+			"time": 71,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Successfully delete existing stock for Plant + SLoc + Batch": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Successfully delete existing stock for Plant + SLoc + Batch": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				71
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Successfully delete existing stock for Plant + SLoc + Batch": true
+				}
+			]
+		},
+		{
+			"id": "751ac4e8-aec1-4573-906e-2f3ce3283a11",
+			"name": "TC77 - SUC - Insert new stock for Plant + SLoc + SpecialCode",
+			"url": "http://192.168.155.235:30438/materialStocks/codes",
+			"time": 108,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				108
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "237770c5-5ec3-4af1-b4f5-dc201481e07e",
+			"name": "EXP - TC77",
+			"url": "http://192.168.155.235:31861/materialStocks/storeLocationId/147/batch//projectStockWBS/QA-TST-99-99-00",
+			"time": 66,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Successfully insert new stock for Plant + SLoc + Special Stock": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Successfully insert new stock for Plant + SLoc + Special Stock": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				66
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Successfully insert new stock for Plant + SLoc + Special Stock": true
+				}
+			]
+		},
+		{
+			"id": "cb0530a1-7be2-48aa-9503-c6e5ef5968fd",
+			"name": "TC78 - SUC - Update existing stock for Plant + SLoc + SpecialCode",
+			"url": "http://192.168.155.235:30438/materialStocks/codes",
+			"time": 115,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				115
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "79faaeab-6dd6-46e5-b100-1c85a24aaaa5",
+			"name": "EXP - TC78",
+			"url": "http://192.168.155.235:31861/materialStocks/storeLocationId/147/batch//projectStockWBS/QA-TST-99-99-00",
+			"time": 68,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Successfully update stock for Plant + SLoc + Special Stock": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Successfully update stock for Plant + SLoc + Special Stock": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				68
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Successfully update stock for Plant + SLoc + Special Stock": true
+				}
+			]
+		},
+		{
+			"id": "6bd251b2-40d3-4101-953a-6106e03a7498",
+			"name": "TC79 - SUC - Delete existing stock for Plant + SLoc + SpecialCode",
+			"url": "http://192.168.155.235:30438/materialStocks/codes",
+			"time": 114,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				114
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "373fcf2d-010a-442e-9689-21096f7bac65",
+			"name": "EXP - TC79",
+			"url": "http://192.168.155.235:31861/materialStocks/storeLocationId/147/batch//projectStockWBS/QA-TST-99-99-00",
+			"time": 68,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Successfully delete existing stock for Plant + SLoc + Special Code": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Successfully delete existing stock for Plant + SLoc + Special Code": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				68
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Successfully delete existing stock for Plant + SLoc + Special Code": true
+				}
+			]
+		},
+		{
+			"id": "e19932e7-1b2b-4dfe-a455-a12539ce547f",
+			"name": "TC80 - SUC - Insert new stock for Plant + SLoc + Batch + SpecialCode",
+			"url": "http://192.168.155.235:30438/materialStocks/codes",
+			"time": 122,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				122
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "ef7defbc-53d3-405a-85ca-b0483774eef4",
+			"name": "EXP - TC80",
+			"url": "http://192.168.155.235:31861/materialStocks/storeLocationId/147/batch/N/projectStockWBS/QA-TST-99-99-00",
+			"time": 81,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Successfully insert new stock for Plant + SLoc + Batch + Special Stock": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Successfully insert new stock for Plant + SLoc + Batch + Special Stock": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				81
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Successfully insert new stock for Plant + SLoc + Batch + Special Stock": true
+				}
+			]
+		},
+		{
+			"id": "bfdb14dd-2916-484f-bcb7-cdcf5fdcd16c",
+			"name": "TC81 - SUC - Update existing stock for Plant + SLoc + Batch + SpecialCode",
+			"url": "http://192.168.155.235:30438/materialStocks/codes",
+			"time": 114,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				114
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "82184a61-5425-4525-b1ad-f148af7ff4f4",
+			"name": "EXP - TC81",
+			"url": "http://192.168.155.235:31861/materialStocks/storeLocationId/147/batch/N/projectStockWBS/QA-TST-99-99-00",
+			"time": 68,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Successfully update stock for Plant + SLoc + Batch + Special Stock": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Successfully update stock for Plant + SLoc + Batch + Special Stock": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				68
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Successfully update stock for Plant + SLoc + Batch + Special Stock": true
+				}
+			]
+		},
+		{
+			"id": "545f96ed-cc10-43bb-a799-a68e8e137228",
+			"name": "TC82 - SUC - Delete existing stock for Plant + SLoc + Batch + SpecialCode",
+			"url": "http://192.168.155.235:30438/materialStocks/codes",
+			"time": 114,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				114
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "9b6e2bbe-e2e7-461d-90a2-bbebf3af82fe",
+			"name": "EXP - TC82",
+			"url": "http://192.168.155.235:31861/materialStocks/storeLocationId/147/batch/N/projectStockWBS/QA-TST-99-99-00",
+			"time": 70,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Successfully delete existing stock for Plant + SLoc + Batch + Special Code": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Successfully delete existing stock for Plant + SLoc + Batch + Special Code": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				70
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Successfully delete existing stock for Plant + SLoc + Batch + Special Code": true
+				}
+			]
+		},
+		{
+			"id": "0db4f8b1-dbe7-4b9d-ac5c-f0fc5821f293",
+			"name": "TC83 - SUC - Insert multiple stock for Plant + SLoc + Batch + SpecialCode",
+			"url": "http://192.168.155.235:30438/materialStocks/codes",
+			"time": 268,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				268
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "7082cc76-3635-49e0-8d65-19e67150dd68",
+			"name": "EXP - TC83",
+			"url": "http://192.168.155.235:31861/materialStocks/storeLocationId/147/batch/N/projectStockWBS/QA-TST-99-99-00",
+			"time": 69,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Successfully insert multiple stock for Plant + SLoc + Batch + Special Stock": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Successfully insert multiple stock for Plant + SLoc + Batch + Special Stock": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				69
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Successfully insert multiple stock for Plant + SLoc + Batch + Special Stock": true
+				}
+			]
+		},
+		{
+			"id": "c65cea5f-9eeb-4636-bdd8-1468ca2603c6",
+			"name": "TC84 - SUC - Update multiple stock for Plant + SLoc + Batch + SpecialCode",
+			"url": "http://192.168.155.235:30438/materialStocks/codes",
+			"time": 335,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				335
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "5e870f2e-6857-429b-a84b-d9c64a6313aa",
+			"name": "EXP - TC84",
+			"url": "http://192.168.155.235:31861/materialStocks/storeLocationId/147/batch/N/projectStockWBS/QA-TST-99-99-00",
+			"time": 68,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Successfully update multiple stock for Plant + SLoc + Batch + Special Stock": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Successfully update multiple stock for Plant + SLoc + Batch + Special Stock": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				68
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Successfully update multiple stock for Plant + SLoc + Batch + Special Stock": true
+				}
+			]
+		},
+		{
+			"id": "5f88b8cf-395e-4d0c-8437-3280277a3c4c",
+			"name": "TC85 - SUC - Delete multiple stock for Plant + SLoc + Batch + SpecialCode",
+			"url": "http://192.168.155.235:30438/materialStocks/codes",
+			"time": 227,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				227
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "f742a04b-7c58-44a6-9e36-85bd23b6e924",
+			"name": "EXP - TC85",
+			"url": "http://192.168.155.235:31861/materialStocks/storeLocationId/147/batch/N/projectStockWBS/QA-TST-99-99-00",
+			"time": 77,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Successfully delete multiple stock for Plant + SLoc + Batch + Special Code": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Successfully delete multiple stock for Plant + SLoc + Batch + Special Code": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				77
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Successfully delete multiple stock for Plant + SLoc + Batch + Special Code": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 3289,
+	"collection": {
+		"requests": [
+			{
+				"id": "3570589a-300a-4509-8298-bcf829393d51",
+				"method": "POST"
+			},
+			{
+				"id": "ab885e34-9d36-45da-9c3e-7c27fad1837d",
+				"method": "GET"
+			},
+			{
+				"id": "01d1244f-29f8-4f03-82b4-6eef216323f0",
+				"method": "POST"
+			},
+			{
+				"id": "2e9ee841-58c1-4974-98af-c051f395ea9a",
+				"method": "GET"
+			},
+			{
+				"id": "cd5ecad9-7e4c-423e-8c26-f6351fb50b7e",
+				"method": "POST"
+			},
+			{
+				"id": "d219c022-d963-4082-995f-84f2bba48089",
+				"method": "GET"
+			},
+			{
+				"id": "3c56d5ec-ef0a-414a-8b0d-6756c02cc53c",
+				"method": "POST"
+			},
+			{
+				"id": "eca32a03-8efc-43b8-a19e-8055aa359031",
+				"method": "GET"
+			},
+			{
+				"id": "bbb75375-586d-4fd5-b2d7-48cce7063a6f",
+				"method": "POST"
+			},
+			{
+				"id": "fd9c0dfd-87b3-4c44-9747-73b7e845669e",
+				"method": "GET"
+			},
+			{
+				"id": "14261849-c4b5-4ee4-ace4-c041dccd1f74",
+				"method": "POST"
+			},
+			{
+				"id": "993a9847-319e-4823-b22b-d0fe5d6a8392",
+				"method": "GET"
+			},
+			{
+				"id": "751ac4e8-aec1-4573-906e-2f3ce3283a11",
+				"method": "POST"
+			},
+			{
+				"id": "237770c5-5ec3-4af1-b4f5-dc201481e07e",
+				"method": "GET"
+			},
+			{
+				"id": "cb0530a1-7be2-48aa-9503-c6e5ef5968fd",
+				"method": "POST"
+			},
+			{
+				"id": "79faaeab-6dd6-46e5-b100-1c85a24aaaa5",
+				"method": "GET"
+			},
+			{
+				"id": "6bd251b2-40d3-4101-953a-6106e03a7498",
+				"method": "POST"
+			},
+			{
+				"id": "373fcf2d-010a-442e-9689-21096f7bac65",
+				"method": "GET"
+			},
+			{
+				"id": "e19932e7-1b2b-4dfe-a455-a12539ce547f",
+				"method": "POST"
+			},
+			{
+				"id": "ef7defbc-53d3-405a-85ca-b0483774eef4",
+				"method": "GET"
+			},
+			{
+				"id": "bfdb14dd-2916-484f-bcb7-cdcf5fdcd16c",
+				"method": "POST"
+			},
+			{
+				"id": "82184a61-5425-4525-b1ad-f148af7ff4f4",
+				"method": "GET"
+			},
+			{
+				"id": "545f96ed-cc10-43bb-a799-a68e8e137228",
+				"method": "POST"
+			},
+			{
+				"id": "9b6e2bbe-e2e7-461d-90a2-bbebf3af82fe",
+				"method": "GET"
+			},
+			{
+				"id": "0db4f8b1-dbe7-4b9d-ac5c-f0fc5821f293",
+				"method": "POST"
+			},
+			{
+				"id": "7082cc76-3635-49e0-8d65-19e67150dd68",
+				"method": "GET"
+			},
+			{
+				"id": "c65cea5f-9eeb-4636-bdd8-1468ca2603c6",
+				"method": "POST"
+			},
+			{
+				"id": "5e870f2e-6857-429b-a84b-d9c64a6313aa",
+				"method": "GET"
+			},
+			{
+				"id": "5f88b8cf-395e-4d0c-8437-3280277a3c4c",
+				"method": "POST"
+			},
+			{
+				"id": "f742a04b-7c58-44a6-9e36-85bd23b6e924",
+				"method": "GET"
+			}
+		]
+	}
+}
